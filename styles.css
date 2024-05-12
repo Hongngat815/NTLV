@@ -1,0 +1,393 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+.btn{
+    color: #ffffff;
+    background-color: #3b250c;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+}
+.btn:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+
+}
+
+#main {
+    background-color: #dfb987;
+}
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color:#faefc1;
+    z-index: 1;
+    border-bottom: 5px solid #3b250c; 
+    border-top: 5px solid #3b250c; 
+}
+
+#danh-muc ul{
+    padding: 0 24px;
+}
+#danh-muc li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+#danh-muc li a {
+    color: #3b250c;
+    text-decoration: none;
+    line-height: 100px;
+    padding: 0 24px;
+    display: block;
+}
+#danh-muc >li >a{
+    text-transform: uppercase;
+    color: #3b250c;
+}
+#danh-muc,.subnav{
+    list-style-type: none;
+    float: right;
+}
+#danh-muc,.subnav{
+    list-style-type: none;
+}
+a:-webkit-any-link {
+    
+    font-size: larger;
+
+}
+#danh-muc .subnav li:hover a,
+#danh-muc > li:hover >a{
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+#header .logo {
+    height: 100px;
+    padding: 5px 24px 10px 70px ;
+}
+.anhbia img{
+    padding: 100px 0 0 0;
+    width: 100%;
+    
+}
+#new .vanbannew {
+    width: 50% ;
+    max-width: 100%;
+    padding: 10px 0 60px 0;
+    margin-right: 0 ;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: justify;
+    margin-left: 20px;
+}
+#new .phong2{
+    font-weight: 500;
+    font-size: 100px;
+    letter-spacing: 4px;
+    color: #3b250c;
+}
+#new .phong3{
+    font-size: 15px;
+    margin-top: 0px;
+    font-style: italic;
+    opacity: 0.6;
+    color:#3b250c;
+}
+#new .phong4{
+    font-size: 15px;
+    margin-top: 0px;
+    opacity: 1;
+    color: #4d3010;
+
+}
+#new .phong5{
+    list-style-type: none;
+    text-indent: 7px;
+}
+#new .anhnew img{
+    width: 100% ;
+    height: auto;
+    padding: 35px;
+}
+#new {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #dfb987;
+}
+.phong6{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 16px;
+    padding-bottom: 48px;
+    width: 100%;
+    display: flex;
+    width: 1200px;
+    max-width: 100%;
+    padding: 0px 0 112px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+.anhsamphamnew{
+    width: 100%;
+    display: block;
+}
+
+.anhsamphamnew:hover{
+    opacity: 0.6;
+}
+
+.phong7{
+    width: 25%;
+    padding: 25px 25px;
+    border: #3b250c;
+    margin-top: 16px ;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.phong8{
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+}
+.phong8-heading{
+    font-size: 20px;
+    font-weight: 550;
+
+}
+
+.phong8-time{
+    margin-top: 18px;
+    color: #757575;
+}
+
+.phong8-desc{
+    margin-top: 15px;
+    line-height: 1.4;
+
+}
+.phong9 {
+    color: #3b250c;
+    padding: 100px 0 0px 0;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+
+}
+#trendy .vanbantrendy {
+    width: 920px ;
+    max-width: 100%;
+    padding: 10px 100px 60px 100px;
+    margin-left: auto;
+    margin-right: auto ;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: justify;
+    unicode-bidi: isolate;
+    
+}
+#trendy .phong2{
+    font-weight: 500;
+    font-size: 80px;
+    letter-spacing: 4px;
+    color: #252422;
+    text-align: center;
+    text-transform: uppercase;
+}
+#trendy .phong3{
+    font-size: 15px;
+    margin-top: 10px;
+    font-style: italic;
+    opacity: 0.6;
+    color:#3b250c;
+    text-align: center;
+}
+#trendy .phong4{
+    font-size: 15px;
+    margin-top: 10px;
+    opacity: 1;
+    color: #4d3010;
+    text-align: center;
+
+}
+#trendy .phong5{
+    list-style-type: none;
+    text-indent: 7px;
+}
+#trendy .anhtrendy img{
+    width: 100% ;
+    height: auto;
+    padding: 35px;
+}
+#trendy {
+    padding: 50px;
+    align-items: center;
+    background-color: #faeddc;
+}
+
+/*hahâhahaaha*/
+#lifestyle .vanbanlifestyle {
+    width: 50% ;
+    max-width: 100%;
+    padding: 10px 100px 60px 100px;
+    margin-left: auto;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: justify;
+    unicode-bidi: isolate;
+}
+#lifestyle .phong2{
+    font-weight: 500;
+    font-size: 80px;
+    letter-spacing: 4px;
+    color: #252422;
+    text-align: center;
+}
+#lifestyle .phong3{
+    font-size: 15px;
+    margin-top: 10px;
+    font-style: italic;
+    opacity: 0.6;
+    color:#3b250c;
+    text-align: center;
+}
+#lifestyle .phong4{
+    font-size: 15px;
+    margin-top: 10px;
+    opacity: 1;
+    color: #4d3010;
+    text-align: center;
+
+}
+#lifestyle .phong5{
+    list-style-type: none;
+    text-indent: 7px;
+}
+
+#lifestyle {
+    height: 100%;
+    padding: 80px;
+    align-items: center;
+    background-color: #faeddc;
+    background: url('../img/anhnenlifestyle1.png') top center /cover no-repeat;;
+}
+#lifestyle .boclifestyle{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+
+#vintage .vanbanvintage {
+    width: 920px ;
+    max-width: 100%;
+    padding: 10px 100px 60px 100px;
+    margin-left: auto;
+    margin-right: auto ;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: justify;
+    unicode-bidi: isolate;
+    
+}
+#vintage .phong2{
+    font-weight: 500;
+    font-size: 80px;
+    letter-spacing: 4px;
+    color: #eadabb;
+    text-align: center;
+    text-transform: uppercase;
+}
+#vintage .phong3{
+    font-size: 15px;
+    margin-top: 10px;
+    font-style: italic;
+    opacity: 0.6;
+    color:#eadabb;
+    text-align: center;
+}
+#vintage .phong4{
+    font-size: 15px;
+    margin-top: 10px;
+    opacity: 1;
+    color: #eadabb;
+    text-align: center;
+
+}
+#vintage .phong5{
+    list-style-type: none;
+    text-indent: 7px;
+    color: #eadabb;
+}
+#vintage .anhvintage img{
+    width: 100% ;
+    height: auto;
+    padding: 35px;
+}
+#vintage {
+    padding: 250px;
+    align-items: center;
+    background-color: #9a5f12;
+    background: url(../img/anhvintage3.png)top center /cover no-repeat;
+    width: 100%;
+}
+
+.modal-footer{
+    padding: 16px;
+    text-align: right;
+}
+.modal-footer a {
+    color: #2196f3;
+}
+#footer{
+    padding: 100px 64px;
+    text-align: center;
+    background-color: #9d784e;
+}
+#footer .socials-list {
+    font-size: 24px;
+
+}
+
+#footer .socials-list a {
+    color: rgba(0,0,0,0.6);
+    text-decoration: none;
+}
+
+#footer .copyright a:hover,
+#footer .socials-list a:hover {
+    color: rgba(0,0,0,0.4);
+}
+
+#footer .copyright {
+    margin-top: 15px;
+    color: rgba(0,0,0,0.6);
+}
+
+#footer .copyright a{ 
+    color: rgba(0,0,0,0.6);
+}
